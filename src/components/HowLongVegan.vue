@@ -1,7 +1,7 @@
 <template>
     <div class="">
         <p>I've been vegan for:</p>
-        <h1> 
+        <h1 v-if="years > 0"> 
             <span v-text="years"></span> years
             <span v-if="months > 0">
                 <span v-text="months"></span> month<span v-if="months > 1">s</span> 
